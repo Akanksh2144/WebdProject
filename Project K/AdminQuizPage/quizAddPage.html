@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add Quiz</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link href="./quizAddPageStyle.css" rel="stylesheet">
+    </head>
+    <body>
+        
+
+        <div class="container">
+          <form>
+              <div class="row mb-4" style="padding-top: 3%; padding-left: 10px; padding-right: 10px;">
+                  <input type="text" id="questionInput" class="form-control" placeholder="Enter Question">
+              </div>
+              <div class="row mb-4">
+                <div class="col">
+                  <input type="text" id="option1" class="form-control Options" placeholder="Enter Option 1">
+                </div>
+                <div class="col">
+                  <input type="text" id="option2" class="form-control" placeholder="Enter Option 2">
+                </div>
+              </div>
+              <div class="row mb-4">
+                <div class="col">
+                  <input type="text" id="option3" class="form-control" placeholder="Enter Option 3">
+                </div>
+                <div class="col">
+                  <input type="text" id="option4" class="form-control" placeholder="Enter Option 4">
+                </div>
+              </div>
+              <div class="row mb-4">
+                  <div class="col-6">
+                    <input type="text" id="crctOption" class="form-control" placeholder="Enter Correct Option">
+                  </div>
+                </div>
+                <div class="row mb-4">
+                  <div class="col-12">
+                    <input type="text" id="explanation" class="form-control" placeholder="Enter Explanation">
+                  </div>
+                </div>
+              <button class="btn btn-primary btn-md mb-4" onclick="takeInput()">Add</button>
+            </form>
+        </div>
+
+
+
+
+        <div id="footer" class="fixed-bottom">
+            <footer class="bg-secondary">
+              <p class="text-dark">&copy; 2024 Guru Nanak Institutions. All Rights Reserved.</p>
+            </footer>
+        </div>
+        <script src="../questionpage-main/quiz project/question page/script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    </body>
+</html>
